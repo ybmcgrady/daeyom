@@ -117,10 +117,72 @@ button:focus-visible,
   margin-left: 24px;
   font-size: 19px;
 }
-.menu-toggle,
-.mobile-nav {
+.menu-toggle {
   display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  width: 34px;
+  height: 38px;
+  padding: 8px 5px;
+  border: 0;
+  background: none;
 }
+.menu-toggle span {
+  height: 1px;
+  width: 24px;
+  background: var(--ink);
+  transition: transform 0.2s;
+}
+.menu-toggle[aria-expanded="true"] span:first-child {
+  transform: translateY(3.5px) rotate(45deg);
+}
+.menu-toggle[aria-expanded="true"] span:last-child {
+  transform: translateY(-3.5px) rotate(-45deg);
+}
+.mobile-nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 16px 22px 25px;
+  box-shadow: 0 14px 18px #151b1210;
+  display: none;
+  flex-direction: column;
+}
+.mobile-nav a {
+  padding: 13px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 14px;
+}
+
+.language-switch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.language-switch a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding-inline: 3px;
+  color: var(--muted);
+}
+.language-switch a[aria-current="page"] {
+  color: var(--orange);
+  font-weight: 600;
+}
+.language-switch a:hover {
+  color: var(--orange);
+}
+.language-switch > span {
+  color: #a6aa9e;
+}
+
 .skip-link {
   position: fixed;
   top: -80px;
@@ -1113,45 +1175,6 @@ footer {
   .header-contact span {
     font-size: 17px;
   }
-  .menu-toggle {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 6px;
-    width: 34px;
-    height: 38px;
-    padding: 8px 5px;
-    border: 0;
-    background: none;
-  }
-  .menu-toggle span {
-    height: 1px;
-    width: 24px;
-    background: var(--ink);
-    transition: transform 0.2s;
-  }
-  .menu-toggle[aria-expanded="true"] span:first-child {
-    transform: translateY(3.5px) rotate(45deg);
-  }
-  .menu-toggle[aria-expanded="true"] span:last-child {
-    transform: translateY(-3.5px) rotate(-45deg);
-  }
-  .mobile-nav {
-    position: absolute;
-    top: 74px;
-    left: 0;
-    right: 0;
-    background: #fff;
-    padding: 16px 22px 25px;
-    box-shadow: 0 14px 18px #151b1210;
-    display: flex;
-    flex-direction: column;
-  }
-  .mobile-nav a {
-    padding: 13px 0;
-    border-bottom: 1px solid var(--line);
-    font-size: 14px;
-  }
   .hero {
     height: 650px;
     max-height: 850px;
@@ -1480,5 +1503,84 @@ footer {
   *:after {
     transition: none !important;
     animation: none !important;
+  }
+}
+
+/* Typography for the Chinese page uses the same responsive layout and assets. */
+html:lang(zh-CN) .hero h1 {
+  letter-spacing: 2px;
+  line-height: 1.3;
+}
+html:lang(zh-CN) .hero h1 i {
+  margin-left: -0.5em;
+}
+html:lang(zh-CN) h2 {
+  letter-spacing: 1px;
+  line-height: 1.55;
+}
+html:lang(zh-CN) .fact-value > span {
+  display: inline;
+  margin-left: 12px;
+}
+html:lang(zh-CN) .fact-value.place > span {
+  font-size: 25px;
+  margin-left: 20px;
+}
+@media (max-width: 900px) {
+  .header {
+    gap: 24px;
+  }
+  .desktop-nav {
+    display: none;
+  }
+  .header-contact {
+    margin-left: auto;
+  }
+  .menu-toggle,
+  .mobile-nav {
+    display: flex;
+  }
+}
+@media (max-width: 800px) {
+  html:lang(zh-CN) .fact-value.place > span {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    gap: 14px;
+  }
+  .header-contact {
+    display: none;
+  }
+  .language-switch {
+    margin-left: auto;
+    gap: 7px;
+  }
+  html:lang(zh-CN) .hero h1 {
+    font-size: 48px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+  }
+  html:lang(zh-CN) h2 {
+    font-size: 30px;
+    letter-spacing: 0.3px;
+  }
+  html:lang(zh-CN) .fact-value > span {
+    display: block;
+    margin-left: 0;
+  }
+  html:lang(zh-CN) .fact-value.place {
+    font-size: 26px;
+    line-height: 1.23;
+  }
+  html:lang(zh-CN) .fact-value.place > span {
+    font-size: 12px;
+    margin-left: 0;
+    line-height: 1.6;
+  }
+  html:lang(zh-CN) .application-tabs {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }

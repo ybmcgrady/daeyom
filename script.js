@@ -1,11 +1,24 @@
 "use strict";
 
+const menuLabels = document.documentElement.lang.startsWith("zh")
+  ? { open: "打开导航", close: "关闭导航" }
+  : { open: "Open navigation", close: "Close navigation" };
+
+// Real page links also work without JavaScript; carry the current section across.
+function updateLanguageLinks() {
+  document.querySelectorAll(".language-switch a").forEach((link) => {
+    link.hash = window.location.hash;
+  });
+}
+updateLanguageLinks();
+window.addEventListener("hashchange", updateLanguageLinks);
+
 const menuToggle = document.querySelector(".menu-toggle");
 const mobileNav = document.getElementById("mobile-nav");
 function closeMenu(restoreFocus = false) {
   mobileNav.hidden = true;
   menuToggle.setAttribute("aria-expanded", "false");
-  menuToggle.setAttribute("aria-label", "Open navigation");
+  menuToggle.setAttribute("aria-label", menuLabels.open);
   if (restoreFocus) menuToggle.focus();
 }
 menuToggle.addEventListener("click", () => {
@@ -13,7 +26,7 @@ menuToggle.addEventListener("click", () => {
   menuToggle.setAttribute("aria-expanded", String(open));
   menuToggle.setAttribute(
     "aria-label",
-    open ? "Close navigation" : "Open navigation",
+    open ? menuLabels.close : menuLabels.open,
   );
   mobileNav.hidden = !open;
 });
@@ -26,8 +39,8 @@ document.addEventListener("keydown", (event) => {
 document.addEventListener("click", (event) => {
   if (!mobileNav.hidden && !event.target.closest(".header")) closeMenu();
 });
-window.matchMedia("(min-width: 601px)").addEventListener("change", (event) => {
-  if (event.matches) closeMenu();
+window.matchMedia("(max-width: 900px)").addEventListener("change", (event) => {
+  if (!event.matches) closeMenu();
 });
 
 const tabs = [...document.querySelectorAll('[role="tab"]')];
