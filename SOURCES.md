@@ -1,46 +1,46 @@
-# 网站资料来源与内容边界
+# Website sources and limits of the content
 
-核实日期：2026 年 10 月 2 日。本文为网站维护资料，不是公司经营状态或产品性能的独立认证。
+Research date: October 2, 2026. This document supports website maintenance. It is not independent certification of the company's operating status or product performance.
 
-## 江西公司与水性超纤项目
+## Jiangxi company and waterborne microfiber project
 
-主要来源：[黎川县发展和改革委员会：水性超纤合成革建设项目备案通知书](https://www.jxlcx.gov.cn/art/2026/6/11/art_3880_4453967.html)，政府网站发布日期为 2026 年 6 月 11 日，通知书落款为 2026 年 5 月 26 日。
+Primary source: [Lichuan County Development and Reform Commission: filing notice for the waterborne microfiber synthetic leather construction project](https://www.jxlcx.gov.cn/art/2026/6/11/art_3880_4453967.html). The government page was published on June 11, 2026; the notice itself is dated May 26, 2026.
 
-已核实事实：
+Verified facts:
 
-- 主体名称为江西大越超纤新材料有限公司。
-- 单位地址为江西省抚州市黎川县工业园区园区南大道和平高三路交叉口，邮政编码 344600。
-- 备案项目为水性超纤合成革建设项目，统一项目代码为 2603-361022-04-01-431209。
-- 备案规划年产约 300 万米，项目投资估算合计 1.2 亿元，计划建设期为 2026 年 3 月至 2027 年 3 月。
-- 备案工艺采用海岛纤维、针刺无纺基材及水性聚氨酯树脂含浸，并包含磨皮、片皮、后整理和成品检验。
+- The legal entity is 江西大越超纤新材料有限公司. The website uses “Jiangxi Dayue Microfiber New Materials Co., Ltd.” as a descriptive English translation, not a verified registered English name.
+- Its address is the intersection of Yuanqu South Avenue and Pinggao 3rd Road, Industrial Park, Lichuan County, Fuzhou, Jiangxi, China, postal code 344600.
+- The filing covers a waterborne microfiber synthetic leather construction project, with unified project code 2603-361022-04-01-431209.
+- The filed plan lists annual output of approximately 3 million meters, an estimated total investment of RMB 120 million, and a planned construction period from March 2026 to March 2027.
+- The filed process uses sea-island fibers, a needle-punched nonwoven base, and impregnation with waterborne polyurethane resin. It also includes buffing, splitting, finishing, and finished-product inspection.
 
-推荐简洁文案：江西大越超纤新材料有限公司立足江西黎川，围绕水性超纤合成革开展材料项目布局。以纤维基材与水性聚氨酯工艺为核心，探索兼顾质感与应用需求的材料解决方案。
+Suggested concise description: Based in Lichuan, Jiangxi, Jiangxi Dayue Microfiber New Materials Co., Ltd. is developing a waterborne microfiber synthetic leather project. Its materials approach centers on fiber substrates and waterborne polyurethane processing, exploring solutions that bring together tactile qualities and application needs.
 
-上述规模、投资及时间为备案规划，不能直接写成实际产能、已完成投资或已经全面投产。备案文件也不能证明特定产品检测结果、客户认证、环保认证或减排比例。
+The scale, investment, and schedule above are filed plans. They must not be presented as actual operating capacity, completed investment, or confirmation that full production has begun. The filing does not establish product test results, customer approvals, environmental certifications, or emission-reduction percentages.
 
-## 可核实的企业动态
+## Verifiable company news
 
-[黎川县商务局：市贸促会一行赴黎川开展调研督导](https://www.jxlcx.gov.cn/art/2026/9/14/art_2346_4476124.html)，发布于 2026 年 9 月 14 日。该报道确认，9 月 11 日工作组走访的三家重点工业企业包含江西大越超纤新材料有限公司，交流内容涉及外贸业务、市场拓展及企业经营需求。
+[Lichuan County Bureau of Commerce: municipal trade promotion delegation conducts research and guidance visits in Lichuan](https://www.jxlcx.gov.cn/art/2026/9/14/art_2346_4476124.html), published September 14, 2026. The report confirms that Jiangxi Dayue Microfiber New Materials Co., Ltd. was one of three key industrial companies visited on September 11. Discussions addressed foreign trade, market expansion, and business needs.
 
-适合网站动态栏的表述：2026 年 9 月，江西大越超纤新材料有限公司参与市县商务部门企业走访交流，共同探讨市场拓展与企业发展需求。该报道没有单独确认江西大越全部产线达产，也没有披露其出口额或具体客户。
+Suitable wording for a website news section: In September 2026, Jiangxi Dayue Microfiber New Materials Co., Ltd. participated in a company visit and discussion with municipal and county commerce authorities about market expansion and business development needs. The report does not separately confirm that all of the company's production lines have reached full capacity, nor does it disclose export revenue or specific customers.
 
-## 宁波公司资料不可直接转用
+## Do not transfer claims from the Ningbo company
 
-用户提供的[宁波大越化纤制品有限公司介绍](https://www.nbdayue.com/about/1.html)属于宁波大越化纤制品有限公司，介绍无纺制品和涤纶短纤制品业务。
+The user-provided [Ningbo Dayue Chemical Fiber Products Co., Ltd. company introduction](https://www.nbdayue.com/about/1.html) concerns a separate named entity, 宁波大越化纤制品有限公司, and describes its nonwoven and polyester staple fiber businesses.
 
-本次检索未找到足以确认宁波公司与江西大越超纤新材料有限公司之间股权、集团或品牌授权关系的公开证据。名称相近不代表已经证实关联关系。宁波公司的经营历史、海外工厂、营业额、产线数量、客户名单、认证和荣誉均不可转用于江西公司的主页。
+The research did not find sufficient public evidence to establish an ownership, corporate group, or brand licensing relationship between the Ningbo company and the Jiangxi company. Similar names do not establish an affiliation. The Ningbo company's history, overseas factories, revenue, production-line counts, customer lists, certifications, and awards must not be attributed to the Jiangxi company.
 
-## 联络资料
+## Contact information
 
-目前可可靠公开使用的联络资料为上述江西公司地址与邮政编码。本次检索未确认江西公司明确公开的商务电话、业务邮箱、微信或官方网站。
+The reliably usable public contact information identified during research is the Jiangxi company address and postal code above. The research did not verify a publicly listed business phone number, email address, WeChat account, or official website for the Jiangxi company.
 
-政府备案页面的联系电话栏未展示可用号码；企业信息聚合页的联系方式未公开展开。聚合平台页脚的客服热线与邮箱属于平台，不能作为江西公司的联系方式。宁波公司的联络资料也不可替代。
+The phone field on the government filing page did not provide a usable number. Business-directory contact details were not publicly expanded. A directory platform's footer hotline and email belong to the platform and must not be used as the company's contacts. The Ningbo company's details cannot be substituted either.
 
-网站不应虚构邮箱、手机号码、表单接收人或在线客服。正式业务联系方式应由公司提供后再补充；没有后端的表单不能声称已发送询盘。
+Do not invent email addresses, phone numbers, form recipients, or live support. The company must supply formal business contacts before they are added. A form with no delivery backend must not claim that an inquiry has been sent. The user has requested that the current phone, email, and WeChat fields remain blank.
 
-## 应用、性能与视觉素材
+## Applications, performance, and visual assets
 
-- 鞋履、箱包、汽车内饰及服装属于用户给定的业务应用方向，可作为“应用探索”或“应用方向”展示。现有江西公司官方来源不足以证明每个方向已有量产交付、客户合作或专项认证。
-- 产品厚度、耐磨次数、耐水解年限、阻燃等级、回收含量、无溶剂承诺、低碳比例等需公司规格书或检测资料支持，不应自行编造。
-- 网站使用的 DaeyoM / 大越超纤标识来自用户提供的品牌图片。
-- 概念材料图、通用应用图片与装饰性示意图不能标注为江西公司的实际工厂、真实样品或已交付案例；真实生产图片应由公司另行提供。
+- Footwear, bags, automotive interiors, and apparel are business application directions supplied by the user. They may be presented as areas of exploration or intended applications. The available official sources for the Jiangxi company do not establish production deliveries, customer relationships, or specific certifications in every area.
+- Product thickness, abrasion cycles, hydrolysis resistance in years, flame-retardancy ratings, recycled content, solvent-free claims, and carbon-reduction percentages require company specifications or test evidence. Do not invent these figures or claims.
+- The DaeyoM / 大越超纤 mark comes from the brand image supplied by the user.
+- Concept material images, generic application imagery, and decorative diagrams must not be labeled as photographs of the Jiangxi company's factory, actual samples, or delivered projects. The company must provide authentic production photographs separately.

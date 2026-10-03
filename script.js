@@ -5,13 +5,16 @@ const mobileNav = document.getElementById("mobile-nav");
 function closeMenu(restoreFocus = false) {
   mobileNav.hidden = true;
   menuToggle.setAttribute("aria-expanded", "false");
-  menuToggle.setAttribute("aria-label", "打开导航");
+  menuToggle.setAttribute("aria-label", "Open navigation");
   if (restoreFocus) menuToggle.focus();
 }
 menuToggle.addEventListener("click", () => {
   const open = menuToggle.getAttribute("aria-expanded") !== "true";
   menuToggle.setAttribute("aria-expanded", String(open));
-  menuToggle.setAttribute("aria-label", open ? "关闭导航" : "打开导航");
+  menuToggle.setAttribute(
+    "aria-label",
+    open ? "Close navigation" : "Open navigation",
+  );
   mobileNav.hidden = !open;
 });
 mobileNav.addEventListener("click", (event) => {

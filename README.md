@@ -1,36 +1,63 @@
-# DaeyoM · 大越超纤
+# DaeyoM
 
-江西大越超纤新材料有限公司中文企业主页。使用原生 HTML、CSS 与 JavaScript，无构建步骤、运行时依赖或外部字体请求，适配桌面与移动端。
+English company website for Jiangxi Dayue Microfiber New Materials Co., Ltd. (江西大越超纤新材料有限公司). The English company name is a descriptive translation; a registered English name has not been verified. Built with plain HTML, CSS, and JavaScript, with no build step, runtime dependencies, or external font requests. The layout supports desktop and mobile screens.
 
-## 本地预览
+## Local preview
+
+From the repository directory, run:
 
 ```sh
 python3 -m http.server 8080
 ```
 
-访问 http://localhost:8080。
+Open [http://localhost:8080](http://localhost:8080).
 
-## 页面内容
+## Website content
 
-- 品牌首页与公司介绍
-- 水性超纤合成革材料及备案工艺路径
-- 鞋履、箱包、汽车内饰、家居与服饰应用切换
-- 项目规划与政府公开来源
-- 公司地址及预留联络资料
+- Brand introduction and company overview
+- Waterborne microfiber synthetic leather and the process described in the project filing
+- Application tabs for footwear, bags, automotive interiors, and living and apparel
+- Project plans with links to public government sources
+- Company address and reserved contact fields
 
-移动菜单支持 Escape 关闭，应用标签支持方向键、Home、End；页面提供键盘焦点、跳转链接及减少动画偏好支持。
+The mobile menu closes with Escape. Application tabs support the arrow keys, Home, and End. The page includes visible keyboard focus, a skip link, and support for reduced-motion preferences.
 
-## 更新内容
+## Files to update
 
-- `index.html`：文案、规划数据、地址及联系方式。电话、邮箱和微信按公司要求保留为空（页面用破折号呈现），未设置虚构联络方式或表单。
-- `styles.css`：响应式布局、黑白橙品牌配色。
-- `script.js`：移动导航、应用标签切换、页脚年份。
-- `SOURCES.md`：公司资料来源、规划数据边界与未证实信息。
-- `assets/daeyom-brand-source.png`：用户提供的原始标志图片；页面通过 SVG viewBox 展示标志区域，未重绘标志。
-- `assets/material-hero.jpg`：AI 生成的材料概念视觉，非工厂或产品实拍。生成记录见 `assets/ASSETS.md`。
+- `index.html`: Website copy, project figures, address, and contact details. At the company's request, phone, email, and WeChat remain blank and appear as dashes. No invented contact information or inquiry form is used.
+- `styles.css`: Responsive layout and the black, white, and orange brand palette.
+- `script.js`: Mobile navigation, application tabs, and the footer year.
+- `SOURCES.md`: Company sources, limits of the project data, and information that has not been verified.
+- `assets/daeyom-brand-source.png`: Original logo image supplied by the user. An SVG viewBox displays the logo area without redrawing the mark.
+- `assets/material-hero.jpg`: AI-generated material concept image, not a photograph of the factory or an actual product. The generation record is in `assets/ASSETS.md`.
+- `CNAME`: Custom domain for GitHub Pages, currently `daeyom.com`.
 
-## 发布
+## Language branches
 
-将本仓库发布到任意静态托管平台即可。GitHub Pages 可选择 `main` 分支与 `/ (root)` 目录。所有资源均使用相对路径，兼容 GitHub Pages 项目子目录。
+- `main`: English website used for deployment.
+- `chinese`: Preserved Chinese website at commit `a30a49a`, before the English translation.
 
-项目规划数据不代表已投产或实际产能。应用领域为方向示意，不代表特定性能测试或行业认证。上线联络资料、样品参数、证书或工厂实拍前，请使用企业核实后的正式内容。
+To preview the preserved Chinese version, first commit or set aside any local changes, then run:
+
+```sh
+git switch chinese
+python3 -m http.server 8080
+```
+
+Return to the English version with `git switch main`. The branches are separate website versions; there is no language switcher on the deployed page.
+
+## Validation
+
+Check JavaScript syntax with:
+
+```sh
+node --check script.js
+```
+
+In a browser, check the desktop and mobile layouts, navigation links, mobile menu, all four application tabs, and keyboard controls. Confirm that the English text fits, the source links work, the original logo is intact, and the contact fields remain blank. This static site has no build or dependency-installation step.
+
+## Deployment
+
+GitHub Pages serves the `main` branch from `/ (root)`, with the custom domain set to `daeyom.com` in `CNAME`. Keep that domain file when updating the site. Assets use relative paths and also work under a GitHub Pages project subdirectory.
+
+Project figures describe filed plans, not confirmed operating capacity or completed production facilities. Application areas indicate intended directions, not proof of product testing or industry certification. Use company-verified information before adding business contacts, sample specifications, certificates, or factory photographs.
